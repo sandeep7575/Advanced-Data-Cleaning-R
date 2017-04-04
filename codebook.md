@@ -1,7 +1,5 @@
 # Variable list and descriptions
 
-# Variable name	     Description
-
 * subject	ID         Feature: The subject who performed the activity for each window sample. Its range is from 1 to 30.
 * activity	         Activity name
 * featDomain	       Feature: Time domain signal or frequency domain signal (Time or Freq)
