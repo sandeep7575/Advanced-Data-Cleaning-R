@@ -28,10 +28,8 @@ run_analysis.R: This is an R script to transform raw data set in a tidy one.
 
 How to reproduce this project:
 
-How to
-
-First clone this repository and download the files.
-Open the R console and set the working directory.
-Run run_analysis.R script in the Rstudio and run the code step by step.
-In the end when you are done with running the last block of the code, please check the working directory where you can find the file
+* First clone this repository and download the files.
+* Open the R console and set the working directory.
+* Run run_analysis.R script in the Rstudio and run the code step by step.
+* In the end when you are done with running the last block of the code, please check the working directory where you can find the file
 named as "DS_human_activity_recognition_using_smartphones.txt"
