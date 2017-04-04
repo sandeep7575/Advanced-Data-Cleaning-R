@@ -129,6 +129,5 @@ setkey(dt, subject, activity, featDomain, featAcceleration, featInstrument, feat
 dtTidy <- dt[, list(count = .N, average = mean(value)), by=key(dt)]
 
 # Saving the data table objects to a text file named DS_human_activity_recognition_using_smartphones.txt.
-
 data <- file.path(path, "DS_human_activity_recognition_using_smartphones.txt")
 write.table(dtTidy, data, quote=FALSE, sep="\t", row.names=FALSE)
